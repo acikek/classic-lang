@@ -1,0 +1,25 @@
+{
+    "name": "classic-lang",
+    "displayName": "Classic Language Support",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "classic",
+            "aliases": ["Classic", "classic"],
+            "extensions": [".clas",".cas"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "classic",
+            "scopeName": "source.classic",
+            "path": "./syntaxes/classic.tmLanguage.json"
+        }]
+    }
+}
