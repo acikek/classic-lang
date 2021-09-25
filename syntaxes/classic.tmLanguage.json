@@ -47,7 +47,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.classic",
-					"match": "(?i)\\b(do|end|for|if|jump|return|unless|until|while)\\b"
+					"match": "(?i)\\b(do|else|end|for|if|jump|return|unless|until|while)\\b"
 				},
 				{
 					"name": "keyword.operator.comparison.classic",
@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "storage.type.classic",
-					"match": "(?i)\\b(address|array|bool|byte|comparator|comparison|double|float|integer|int|long|medium|method|object|pointer|ptr|real|short|signed|string|subroutine|sub|tuple|unsigned|uns)\\b"
+					"match": "(?i)\\b(address|array|bool|byte|char|comparator|comparison|double|float|integer|int|long|medium|method|object|pointer|ptr|real|short|signed|string|subroutine|sub|tuple|unsigned|uns)\\b"
 				},
 				{
 					"name": "storage.modifier.classic",
@@ -63,7 +63,7 @@
 				},
 				{
 					"name": "keyword.other.classic",
-					"match": "(?i)\\b(assert|calc|call|convention|import|include|includable|module|routine|set)\\b"
+					"match": "(?i)\\b(assert|calc|call|convention|import|in|include|includable|module|routine|set)\\b"
 				},
 				{
 					"name": "keyword.operator.other.classic",
